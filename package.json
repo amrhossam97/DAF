@@ -18,7 +18,8 @@
   "homepage": "https://github.com/amrhossam97/DAF#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.9",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
     "nodemon": "^2.0.7"
   },
   "devDependencies": {
