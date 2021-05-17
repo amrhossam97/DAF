@@ -41,7 +41,10 @@ exports.signIn = (req, res) => {
             "' WHERE `user`.`id` = " +
             result[0].id,
           (err, result) => {
-            res.status(200).send("Logged In successfully");
+            res.status(200).send({
+              message :"Logged In successfully",
+              token : accessToken
+            });
           }
         );
       } else {
